@@ -32,48 +32,87 @@ const last_posts = posts.slice(0, 3);
       </text>
     </div>
     <div class="mt-8">
-      <a class="btn" href="mailto:u19cse1049@cit.ac.in" target="_blank"
-        >📧 Say hi!</a
+      <!-- Mail Link -->
+      <!-- The button to open modal -->
+      <label for="my-modal-4" class="btn">📧 Say hi!</label>
+
+      <!-- Put this part before </body> tag -->
+      <input type="checkbox" id="my-modal-4" class="modal-toggle" />
+      <label for="my-modal-4" class="modal cursor-pointer">
+        <label class="modal-box relative" for="">
+          <h3 class="text-lg font-bold">Hey there, random Internet user!</h3>
+          <p class="py-4">
+            By clicking 'Yes,' you will be redirected to your email, where you
+            can write an email to me.
+          </p>
+          <div class="modal-action">
+            <a
+              href="mailto:stewartmichaels@teamfinesse.in"
+              target="_blank"
+              class="btn">Yes!</a
+            >
+          </div>
+        </label>
+      </label>
+      <!-- Instagram Link -->
+      <!-- The button to open modal -->
+      <label for="my-modal-4" class="btn btn-outline ml-5"
+        >🤝 Let's Connect</label
       >
-      <a
-        href="https://www.instagram.com/stewartmichaels_/"
-        target="_blank"
-        class="btn btn-outline ml-5"
-      >
-        🤝 Let's Connect</a
-      >
+
+      <!-- Put this part before </body> tag -->
+      <input type="checkbox" id="my-modal-4" class="modal-toggle" />
+      <label for="my-modal-4" class="modal cursor-pointer">
+        <label class="modal-box relative" for="">
+          <h3 class="text-lg font-bold">Hey there, random Internet user!</h3>
+          <p class="py-4">
+            By clicking 'Yes,' you will be redirected to your Twitter, where you
+            can tweet out to me.
+          </p>
+          <div class="modal-action">
+            <a
+              href="mailto:stewartmichaels@teamfinesse.in"
+              target="_blank"
+              class="btn">Yes!</a
+            >
+          </div>
+        </label>
+      </label>
     </div>
   </div>
 
+  <!-- Projects Section -->
+
   <div>
-    <div class="text-3xl w-full font-bold mb-2">my works {"</>"}</div>
+    <div class="text-3xl w-full font-bold mb-2">personal projects {"</>"}</div>
+    <p>these are some of the projects I worked on to gain more experience.</p>
   </div>
 
   <HorizontalCard
-    title="Demo Project 1"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="NEW"
+    title="GreenCity Foods Pvt. Ltd."
+    img="/images/projects/gcf.webp"
+    desc="I developed and managed GreenCity Foods' website and online presence, including social media campaigns and website optimization. Collaborating with the marketing team, we implemented effective strategies resulting in increased engagement and visibility."
+    url="https://www.greencityfoods.in/"
+    badge="CURRENT"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    title="Team Finesse"
+    img="/images/projects/fns.webp"
+    desc="Team Finesse is a full-service digital agency specializing in Social Media Marketing, Web/App Development, SEO, Digital Strategy, and Graphic Design. Our tailored solutions deliver real results, taking your business to new heights."
+    url="https://www.teamfinesse.in/"
+    badge="CURRENT"
   />
   <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="FOSS"
-  />
+
+  <!-- Blog Section -->
 
   <div>
     <div class="text-3xl w-full font-bold mb-5 mt-10">Latest from blog</div>
+    <p>
+      i enjoy writing about topics that interest me, such as gaming, music, and
+      the latest tech stacks that i come across.
+    </p>
   </div>
 
   {
