@@ -1,0 +1,47 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ContactForm from "../components/ContactForm.astro";
+import "boxicons";
+---
+
+<BaseLayout title="Contact">
+  <div>
+    <h1 class="text-4xl text-center font-bold py-2">Contact</h1>
+    <p class="text-lg text-center font-semibold">
+      Hey there, random Internet user!
+    </p>
+  </div>
+  <div class="grid md:grid-cols-2 gap-10 mx-auto max-w-4xl mt-16">
+    <div>
+      <h2 class="font-medium text-2xl text-gray-800">Contact Team Finesse</h2>
+      <p class="text-lg leading-relaxed text-slate-500 mt-3">
+        Partner with Finesse for all your digital needs! We're here to listen,
+        provide solutions, and help your business succeed. Request a free
+        proposal or quote tailored to your specific needs and take the next step
+        with us today!
+      </p>
+      <div class="mt-5">
+        <div class="flex flex-row items-center mt-2 space-x-2 text-gray-600">
+          <span
+            ><img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXpJREFUSEvFle0xREEQRc9GQAaIABEgAyJABIgEESACMkAEZIAMiIA6qkfNzs7H2x9b5s/Uzuu+t/v2x85Y8ZmtGJ8pBJvAGbAP7ERAr8ATcA2894IcEVwFeA9Dm4uWQY/AKLfD8Q4QyDePmZwDx1lGuzWSFkGK/CukScAlhkRKtRZySTp3agRq/hZWRpWDf8d77ifJS7xvlTWpEaToLWAZUY1A7NuQa8GnRpC0L6MXqEWQstB3rhY1ghIk/R41SpX8Xwjsir1IteyelkQO4SPwHF33l20tg1Qwh8eC56dFYDNcAs7LSe5QIzgE7qPdbLspBK6LDeAIeBgR+D05nEYL9laFEd8AH4AzNBw0DVIWn4BZeNfOegyl90L0OvR2USq290GDIM3MQnGTfY/AqJTKPWPhlSs/qRncV0pTzXK0rvNllpPk4LZoaxlO+sMpSczMGo027W+2owySJDmJb5PAlyHQVhKl8diaTVmmzEGv75f6NlWipUBz4x/2dVQZ/ApGpwAAAABJRU5ErkJggg=="
+              class="text-gray-400 w-4 h-4"
+            />Guwahati, Assam, India 781006</span
+          >
+        </div><div
+          class="flex flex-row items-center mt-2 space-x-2 text-gray-600"
+        >
+          <a href="mailto:hello@astroshipstarter.com"
+            ><img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARRJREFUSEvdlNFxwjAQRB8VJB0AFZAS0gmkg1BJ6ADSSUoIHUAHpAKYzdxlNLLkk834g+jHY/u073ZPoxkTr9nE+vxPwCuwBxYj4zsBb8CX9pciUsF8pLhvk8ayBrha1QXYAodG2Ab4AJ6t/rf5kgMHuK4AAglYWhKUsADpCgHKcQc8Ad+Wq57perF56fkDvNv7X/N9DvRPG+VgZQ7SyNJIjuZADXgCoQOHKwI5WVvrPhOP5NM69whDQG2mEvTIVOOR5IegCsiH2xlYEpn+CZjPRN/vArSc2NERtYj3OnCBWlStF2PoYHJAFEXfYfC9Z78sI9u5mOojgMR1wqq3aeqgBIgcdi+kQTsGFkcRDZTrlj8+4AaNzzgZuJBekwAAAABJRU5ErkJggg=="
+              class="text-gray-400 w-4 h-4"
+            />contact@teamfinesse.in</a
+          >
+        </div>
+      </div>
+    </div>
+    <div>
+      <ContactForm />
+    </div>
+  </div>
+</BaseLayout>

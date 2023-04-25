@@ -3,49 +3,35 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCard from "../components/HorizontalCard.astro";
 ---
 
-<BaseLayout title = "Projects">
-  <div>
-    <div class="text-3xl w-full font-bold mb-5">Projects Header</div>
+<BaseLayout title="Projects">
+  <div class="pb-2">
+    <div class="text-3xl w-full font-bold mb-5">Projects</div>
+    <p>
+      As the founder of Finesse, a digital agency, I've worked on diverse
+      projects across multiple industries as a freelancer. These projects range
+      from website design and development, e-commerce platforms, mobile app
+      development to social media campaigns, SEO optimization and digital
+      marketing strategies. By collaborating with clients, I've implemented
+      customized solutions to help them achieve their goals. Visit my company's
+      website for more information.
+    </p>
   </div>
 
-  <HorizontalCard
-    title="Demo Project 1"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="NEW"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
-
-  <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Projects Header</div>
+  <div class="space-y-4">
+    <HorizontalCard
+      title="GreenCity Foods Pvt. Ltd."
+      img="/images/projects/gcf.webp"
+      desc="I developed and managed GreenCity Foods' website and online presence, including social media campaigns and website optimization. Collaborating with the marketing team, we implemented effective strategies resulting in increased engagement and visibility."
+      url="https://www.greencityfoods.in/"
+      badge="CURRENT"
+    />
+    <div class="divider my-0"></div>
+    <HorizontalCard
+      title="Team Finesse"
+      img="/images/projects/fns.webp"
+      desc="Team Finesse is a full-service digital agency specializing in Social Media Marketing, Web/App Development, SEO, Digital Strategy, and Graphic Design. Our tailored solutions deliver real results, taking your business to new heights."
+      url="https://www.teamfinesse.in/"
+      badge="CURRENT"
+    />
   </div>
-
-  <HorizontalCard
-    title="Demo Project 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="FOSS"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 4"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 5"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
 </BaseLayout>
