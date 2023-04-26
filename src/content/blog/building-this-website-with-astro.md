@@ -5,9 +5,7 @@ pubDate: "April 25 2023"
 heroImage: "/images/blog/astro.webp"
 ---
 
-# Building this Website with _Astro_
-
-So I was thinking about building a portfolio website for the longest time now but I could never really make the time to do it up until now. Then comes my friend [Winters](https://github.com/IslARY) who showed me the power of Astro and it's island style component design. I felt invincible.
+So I was thinking about building a portfolio website for the longest time now but I could never really make the time to do it up until now. Then comes my friend <a href="https://github.com/IslARY" target="_blank">Winters</a> who showed me the power of Astro and it's island style component design. I felt invincible.
 
 I wanted to build a website that is fast, responsive, and easy to customize. So I used Astro, which is a lightweight framework for building static website that leverages modern web technologies such as web components which basically works like an island and server-side rendering.
 
